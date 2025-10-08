@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+main{
+display: flex;
+justify-items: center;
+justify-content: center;
+background-color: white;
+margin: -8px 39px 0 43px;
+}
+header{
+
+}
+nav{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.navbar1 img{
+    width: 79px;
+    height: 41px;
+}
+.navbar1{
+display: flex;
+gap: 26px;
+padding-top: 23px;
+align-items: center;
+
+}
+.navbar2{
+display: flex;
+gap: 26px;
+padding-top: 23px;
+align-items: center;
+
+
+}
+nav a{
+text-decoration: none;
+color: rgb(24, 14, 14);
+font-weight: bold;
+font-family: ;
+}
