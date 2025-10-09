@@ -15,6 +15,7 @@ nav{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
+gap: 20em;
 }
 .navbar1 img{
     width: 79px;
@@ -25,19 +26,43 @@ display: flex;
 gap: 26px;
 padding-top: 23px;
 align-items: center;
-
 }
 .navbar2{
 display: flex;
 gap: 26px;
 padding-top: 23px;
 align-items: center;
-
-
 }
 nav a{
 text-decoration: none;
 color: rgb(24, 14, 14);
 font-weight: bold;
-font-family: ;
+}
+.navbar2 button{
+    background-color: rgb(0, 0, 255);
+    padding: 4px 16px;
+    color: white;
+    border-radius: 6px;
+}
+.content{
+    text-align: center;
+    padding-top: 63px;
+}
+.content h1 {
+    font-size: 4em;
+    margin: 0;
+    font-weight: lighter;
+}
+.content p {
+    font-family: sans-serif;
+      text-align: center; 
+      color: rgb(95, 86, 86);
+      padding-bottom: 22px;
+}  
+.content button{
+    background-color: blue;
+    height: 49px;
+    width: 253px;
+    border-radius: 12px;
+    color: white;
 }
