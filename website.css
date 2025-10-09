@@ -52,14 +52,15 @@ font-weight: bold;
     font-family: sans-serif;
       text-align: center; 
       color: rgb(95, 86, 86);
-      padding-bottom: 22px;
+      padding: 0 0 26px 22em;
+      width: 486px;
 }  
 .content button{
-    background-color: blue;
+    background-color: #FADF54;
     height: 49px;
     width: 253px;
     border-radius: 12px;
-    color: white;
+    color: rgb(3, 3, 3);
     border: solid black;
 }
 article{
@@ -72,4 +73,78 @@ article h4{
     font-size: medium;
     color: rgb(24, 14, 14);
 }
-
+.section1{
+    padding: 50px 83px 0 83px;
+}
+.intro{
+    width: 577px;
+    padding-left: 100px;
+}
+.intro button{
+    background-color: #FFC699;
+    width: 171px;
+    height: 36px;
+    border-radius: 30px;
+}
+.platform{
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    padding: 50px  0px 37px 103px;
+}
+.platform p{
+    font-family: sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(24, 14, 14);
+    width: 201px;
+    text-align: left;
+}
+.facebook{
+font-size: large;
+font-weight: bolder;
+}
+.instagram{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-style: italic;
+}
+.comment{
+    text-align: center;
+    padding: 0 87px 0 87px;
+    background-color:#FFC699;
+    border: solid black;
+    border-radius: 50px;
+}
+.comment img{
+width: 57px;
+height: 56px;
+border-radius: 50px;
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;}
+.info{
+display: flex;
+flex-direction: row;
+gap: 8px;
+padding-left: 20px;
+}
+.rate{
+display: flex;
+flex-direction: row;
+gap: 11px;
+}
+.user span {
+padding-top: 22px;
+}
+.comment p {
+ width: 500px;
+ padding-left: 19px;
+ text-align: left;
+}
+.image2{
+    position: relative;
+    bottom: 30.6em;
+    left: 39.2em;
+}
