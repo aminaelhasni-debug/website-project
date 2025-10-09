@@ -75,7 +75,7 @@ article h4{
 }
 .section1{
     padding: 50px 83px 0 83px;
-    border: solid black;
+    height: 621px;
 }
 div:empty {
   display: none;
@@ -83,11 +83,11 @@ div:empty {
 .intro{
     width: 577px;
     padding-left: 100px;
-    height: 626px;
 }
 .intro button{
     background-color: #FFC699;
     width: 171px;
+    height: 36px;
     border-radius: 30px;
 }
 .platform{
@@ -150,7 +150,7 @@ padding-top: 22px;
 .image2{
     position: relative;
     bottom: 30.6em;
-    left: 39.2em;
+    left: 38.9em;
 }
 /* .section2{
     padding: 50px 83px 0 83px;
