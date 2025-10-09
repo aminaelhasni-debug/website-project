@@ -2,20 +2,15 @@ body{
     background-color: black;
 }
 main{
-display: flex;
-justify-items: center;
-justify-content: center;
 background-color: white;
 margin: -8px 39px 0 43px;
-}
-header{
-
 }
 nav{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 gap: 20em;
+padding: 0px 33px 0 33px;
 }
 .navbar1 img{
     width: 79px;
@@ -65,4 +60,16 @@ font-weight: bold;
     width: 253px;
     border-radius: 12px;
     color: white;
+    border: solid black;
 }
+article{
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
+article h4{
+    margin: 0;
+    font-size: medium;
+    color: rgb(24, 14, 14);
+}
+
